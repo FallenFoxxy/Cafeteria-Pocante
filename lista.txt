@@ -1,0 +1,7 @@
+<li><h3> SEGUNDA-FEIRA </h3> <hr> <span> FECHADO </span></li>
+        <li><h3> TERÇA-FEIRA </h3> <p> 09:00 - 22:00 </p></li>
+        <li><h3> QUARTA-FEIRA </h3> <p> 09:00 - 22:00 </p></li>
+        <li><h3> QUINTA-FEIRA </h3> <p> 09:00 - 22:00 </p></li>
+        <li><h3> SEXTA-FEIRA </h3> <p> 09:00 - 22:00 </p></li>
+        <li><h3> SÁBADO </h3> <p> 09:00 - 22:00 </p></li>
+        <li><h3> DOMINGO</h3> <p> 12:00 - 22:00 </p></li>

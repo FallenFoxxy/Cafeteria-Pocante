@@ -1,0 +1,283 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
+.topo{
+    position: fixed;
+    box-sizing: border-box;  
+    background-color: #8c6d35; 
+    font-size: 20px;
+    width: 100%;
+    height: 130px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    z-index: 5;
+}
+
+.topo img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    position: absolute;
+    top: -65px ;
+    left: 100px;
+}
+
+.topo a{
+    text-decoration: none;
+    font-size: 23px;
+    font-family: "Oswald";
+    color: #ece5d4;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: -70px;
+    position: relative;
+    top: -20px;
+    text-shadow: 5px 5px 5px black;
+    z-index: 5;
+}
+
+.topo p{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+    padding-right: 300px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.banner h1{ 
+    position: absolute;
+    top: 400px;
+   text-align: center;
+    font-size: 100px;
+    color: white;
+    font-family: "Fraunces"; 
+    
+}
+
+.banner img{
+    padding-top: 50px;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    min-height: 900px;
+}
+
+.Informações h2{
+    font-size: 20px;
+    color: #947c44;
+    padding-top: 100px;
+}
+
+.Informações p{
+    font-size: 20px;
+    color: #acacac;
+    padding-bottom: 100px;
+}
+
+.Informações p, h2{
+    font-family: "Lato";
+    margin: 30px 500px 40px;
+    text-align: center;
+}
+
+.conheça h1{ 
+    font-family: "Lato";
+   padding-top: 100px;
+    color:#947c44;   
+    font-size: 20px; 
+    
+}
+
+.conheça p{
+    font-size: 20px;
+    color: #acacac;
+    padding-bottom: 100px;
+
+}
+
+.conheça p, h1{
+    font-family: "Lato";
+    margin: 40px 500px 40px;
+    text-align: center;
+}
+
+.banner_cafeteria img{
+    width: 100%;
+    height: 1100px;
+    background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+}
+
+
+.banner_cafeteria h3{
+    position: absolute;
+    left:33%;
+    top: 2300px;
+    font-size: 50px;
+    font-family: "Fraunces";
+    text-decoration: none;
+    color: white; 
+    text-align: center;
+    background-color:#947c44;
+    z-index: 1;
+    padding: 0;
+    margin: -15px 0 0 -30px;
+    border: 0 none;
+}
+
+
+.Informações h1{
+    font-family: "Oswald";
+    font-size: 20px;     
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: 30px 500px;
+    color: #947c44;
+
+}
+
+.banner_coracao img{
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    position:static
+}
+
+.banner_coracao h3{
+    margin-left: 43%;
+    padding-right: 0px;
+    font-size: 20px;
+    width: 320px;
+    height: 30px;
+    position: absolute;
+    top: 3750px;
+    font-family: "Fraunces";
+    color: #ece5d4;
+    background-color: #8c6d35;
+} 
+
+.Contato h2{ 
+      width: 300px;
+      height: 34px;
+      font-family: "Lato";    
+      position: absolute;
+      top: 4770px ;
+      right: 15%;
+      background-color: #947c44;
+      color: white;
+      z-index: 3;
+}
+ 
+.Contato iframe{
+    position: absolute;
+    left: 550px;
+    top: 4950px;
+    width: 800px;
+    height: 500px;
+    z-index: 4;   
+}
+
+.Contato ul{
+    background-color: #947c44;
+    font-size: 18px;
+    height: 150px;
+    width: 480px;
+    margin-left: 720px;
+    font-family: "Oswald";
+    text-shadow: 10px 10px 10px black;
+    color:white;
+    position: absolute;
+    bottom: -4800px;
+    z-index: 2;
+}
+
+.banner_atendimento img{
+    width: 100%;
+    background-attachment:fixed;
+    background-size: cover;
+    position: absolute;
+    top: 4800px;
+    z-index: 0;
+}
+
+.Horário{position: relative;
+         bottom: -1200px; 
+}
+
+.Horário img{
+    width: 100%;
+    background-size: cover;
+    padding-top: 20px;
+    z-index: 0;
+}
+
+.Horário h1{
+    color: white;
+    font-family: "Oswald";
+    margin-left: 800px;
+    position: absolute;
+    bottom: 2100px;
+    z-index: 5;
+}
+
+.dias_da_semana{
+    font-size: 20px;
+    font-family: "Oswald";
+    color: white;
+    position: relative;
+    bottom: 900px;
+    left: 200px;
+    z-index: 2;
+}
+
+.Horário hr{ 
+    height: 0px;
+    width: 40%;
+    background-color: white;
+    position: relative;
+    right: 150px;
+    top: -30px;
+}
+
+
+.expediente{
+    font-size: 20px;
+    color: white;
+    font-family: "Oswald";
+    left: 1600px;
+    position: relative;
+    bottom: 1475px;
+}
+
+.expediente hr{
+   width: 0px;
+   width: 0px;
+   z-index: -1;
+}
+
+.rodape{
+background-color: black;
+width: 100%;
+height: 200px;
+color: white;
+}
+
+.rodape p{ 
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.rodape a{
+    position: relative;
+    left: 1800px;
+    top: 75px;
+}
